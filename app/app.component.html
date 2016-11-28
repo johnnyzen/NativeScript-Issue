@@ -1,0 +1,9 @@
+<StackLayout>
+    <Button text="Add" (tap)="onTapAdd()" class="btn btn-primary btn-active"></Button>
+    <Button text="Reduce All" (tap)="onTapReduceAll()" class="btn btn-primary btn-active"></Button>
+    <ListView [items]="items" height="100%" >
+        <template let-item="item">
+            <counter [model]="item"></counter>
+        </template>
+    </ListView>
+</StackLayout>

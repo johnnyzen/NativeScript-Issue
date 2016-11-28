@@ -8,3 +8,8 @@ node_modules/
 platforms/
 tmp/
 typings/
+.idea/**/*.xml
+.idea/modules.xml
+.idea/nativescript-experiment-ts.iml
+.idea/typescript-compiler.xml
+.idea/workspace.xml
